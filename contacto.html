@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Head -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="Author" content="Jorge Ayona" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Página Corporativa Grenco S.A." />
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon" />
+  <title>Constructora Grenco</title>
+  <script src="https://kit.fontawesome.com/d70e79ac9f.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <!--Componente menú- cabecera-->
+    <nav class="navbar nav ">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="Bootstrap" width="100" height="50">
+        </a>
+
+        <ul class="nav nav justify-content-right">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=" contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Fin nav-->
+
+    <header>
+      <h1 class="text-center " style="color:#339999 "><i>Construimos el Futuro</i></h1>
+      <h2 class="text-center">Contacto</h2>
+      <img class="img-fluid" src="img/iStock-912491748-1.jpg">
+    </header>
+    <section>
+      <p class="text-center pt-4">Si desea más informes datos, <span style="text-decoration:underline ">llene el
+          formulario de abajo. Nos contactaremos a la brevedad.</span>
+      </p>
+
+      <div class="container">
+        <form action="enviar.php" method="post">
+          <div class="row">
+            <div class="col-6">
+              <label>Nombres:</label>
+              <input class="form-control" type="text" placeholder="Escribe tus nombres" required autofocus>
+            </div>
+            <div class="col-6">
+              <label for="">Apellidos:</label>
+              <input class="form-control" type="text" placeholder="Escribe tus apellidos " required>
+            </div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <label for="">Teléfono:</label>
+          <input class="form-control" type="text" placeholder="Escribe tu teléfono">
+        </div>
+        <div class="col-6">
+          <label for="">E-mail</label>
+          <input class="form-control" type="email" placeholder="escribe tu email" required>
+        </div>
+      </div>
+      <div class="row">
+        <label class="text-center mt-4 " for="">Mensaje</label>
+        <textarea placeholder="Mensaje: " class="mx-auto p-2 " name="" id="" cols="30" rows="10" required>
+        </textarea>
+      </div>
+      <div class="row">
+        <button type="submit" class="btn btn-primary mt-2 mb-2">Enviar</button>
+    </section>
+  </div>
+  </form>
+ <hr style="width:50%; margin-left: 25%;height: 1%s;">
+
+  </div> <!--Container principal-->
+  <div class="container">
+    <h4 class="text-center pt-2">Ubicación</h4>
+    <!--iframe centrado con row mx-auto-->
+    <div class="row mx-auto">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.933536479731!2d-77.06704588562577!3d-12.048093991466427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c92e81a94e3b%3A0xb4b49272abf6e47!2sAv.%20Nicol%C3%A1s%20Due%C3%B1as%201063%2C%20Lima%2015082!5e0!3m2!1ses!2spe!4v1673759960380!5m2!1ses!2spe"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <!--Fin iframe centrado-->
+  </div>
+
+  <footer>
+    <p class=" col text-center pt-4" id="pie"> </p>
+
+    <p class="text-center">Síganos en nuestras redes sociales.</span>
+      <br>
+      <br>
+      <a href="http://www.facebook.com/jorgeayonainglis/" target="_blank">
+        <i
+          class="fab fa-facebook-square fa-3x"></i></a>
+      <a href="http://www.instagram.com/jorgeayonainglis/" target="_blank">
+        <i
+          class="fab fa-instagram-square fa-3x"></i></a>
+      <a href="https://twitter.com/jayona/" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+    </p>
+  </footer>
+  </div>
+  </div>
+  <script src=" node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/creditos.js"></script>
+
+</body>
+
+</html>

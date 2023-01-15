@@ -1,0 +1,24 @@
+.grid-container {
+	/* border:1px solid rgb(119, 119, 237); */
+	border-radius: .5em;
+	padding: 5px;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 0px;
+}
+
+.grid-container > div {
+	/* padding: 20px; */
+	background: rgb(182, 182, 184);
+	/* border: 1px solid rgba(109, 95, 238, 0.5); */
+}
+
+.item1 {
+	grid-column: 1 / span 2;
+	grid-row: 1;
+}
+
+.item2 {
+	grid-column: 3;
+	grid-row: 1;
+}
